@@ -1,2 +1,5 @@
 pnpm-workspace.yaml
 node_modules
+
+# enviroment variables
+.env
