@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, process.cwd(), '');
   const allowedHost = env.VITE_ALLOWED_HOST;
+  console.log("RUNNIING ON HOST ====>", allowedHost);
 
   return {
     plugins: [react(), tailwindcss()],
