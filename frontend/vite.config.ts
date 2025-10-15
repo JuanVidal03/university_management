@@ -9,7 +9,7 @@ export default defineConfig(({mode}) => {
 
   return {
     plugins: [react(), tailwindcss()],
-    preview: {
+    server: {
       allowedHosts: [allowedHost],
       port: 8080,
       host: true
